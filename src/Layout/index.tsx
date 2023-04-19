@@ -6,7 +6,7 @@ import "./style.sass";
 export function Layout(): JSX.Element {
   return (
     <>
-      <div>
+      <div id="container">
         <Intro />
         <Catalog />
         <Cart />

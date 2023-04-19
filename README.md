@@ -20,7 +20,7 @@ Visão Tecnica do que encontrará no projeto:
 First, run the development server:
 
 ```bash
-yarn dev
+yarn install
 # and
 yarn server
 ```
