@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { addProductToCartRequest } from "../../store/modules/cart/actions";
 import { IState } from "../../store";
 
-// import { Container } from './styles';
+// import { Container } from './sass';
 
 interface CatalogItemProps {
   product: IProduct;

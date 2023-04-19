@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { IProduct } from "../../store/modules/cart/types";
 import api from "../../services/api";
 import CatalogItem from "../CatalogItem";
-import logo from "./capa.png";
+
 // import { Container } from './styles';
 
 const Catalog: React.FC = () => {
@@ -16,10 +16,11 @@ const Catalog: React.FC = () => {
 
   return (
     <main>
-      <img alt="Pães" src={logo} />
+      <div>
       {catalog.map((product) => (
         <CatalogItem key={product.id} product={product} />
       ))}
+      </div>
     </main>
   );
 };
