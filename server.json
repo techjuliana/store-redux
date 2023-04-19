@@ -2,32 +2,50 @@
   "products": [
     {
       "id": 1,
-      "title": "Casaco maneiro",
-      "price": 290.90
+      "title": "Pão Italiano",
+      "price": 5.00,
+      "about":"Conjunto com 2 unidades, pães frescos",
+      "imagem":"http://localhost:3333/assets/1.jpg"
     },
     {
       "id": 2,
-      "title": "Óculos barato",
-      "price": 20.90
+      "title": "Rosquinhas",
+      "price": 30.00,
+      "about":"Conjunto com 5 unidades, de varios sabores",
+      "imagem": "http://localhost:3000/assets/2.jpg"
     },
     {
       "id": 3,
-      "title": "Tênis da moda",
-      "price": 500.00
+      "title": "Folhados de Queijo",
+      "price": 19.00,
+      "about":"Conjunto com 2 unidades",
+      "imagem": "http://localhost:3000/assets/3.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Pão Francês",
+      "price": 12.00,
+      "about":"Conjunto com 10 unidades, pães frescos",
+      "imagem": "http://localhost:3000/assets/4.jpg"
     }
+
   ],
   "stock": [
     {
       "id": 1,
-      "quantity": 3
+      "quantity": 2
     },
     {
       "id": 2,
-      "quantity": 0
+      "quantity": 3
     },
     {
       "id": 3,
-      "quantity": 1
+      "quantity": 5
+    },
+    {
+      "id": 4,
+      "quantity": 5
     }
   ]
 }
