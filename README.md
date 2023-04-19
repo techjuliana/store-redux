@@ -1,5 +1,5 @@
 <h1 align="center">
-StarWars Films
+Baker Fresh Daily - Cart
 
 
 ## Sobre o projeto
