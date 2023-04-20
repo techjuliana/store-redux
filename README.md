@@ -13,7 +13,9 @@ Visão Tecnica do que encontrará no projeto:
 - TypeScript
 
 ### Screen Baker ⬇️
-<img src="" >
+<img src="https://github.com/techjuliana/store-redux/blob/main/design/1.png" >
+<img src="https://github.com/techjuliana/store-redux/blob/main/design/2.png" >
+
 
 ## Getting Started
 First, run the development server:
