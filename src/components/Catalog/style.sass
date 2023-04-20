@@ -1,18 +1,15 @@
 #containerProdutos
    padding: 1rem
    margin: 2rem
-   // display: flex
-   // flex-direction: row
-   // justify-content: center
-   // display: grid
-   // grid-template-columns: 2fr 2fr
-   // grid-template-columns: repeat(2, 450px)
-   // display: grid
-   // grid-template-columns: repeat(2, 1fr)
-   // grid-gap: 10px
-   // background-color: #2196F3
-   // padding: 10px
-   // flex-wrap: wrap-reverse
+   box-sizing: border-box
+   display: grid
+   justify-content: center
+   flex-wrap: wrap
+   grid-template-columns: 370px 370px
+   gap: 80px
+   @media (max-width: 800px) 
+    grid-template-columns: 340px
+  
    h1 
     margin-bottom: 0.5rem
     font-size: 20px
