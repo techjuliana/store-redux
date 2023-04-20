@@ -3,7 +3,7 @@ import { IProduct } from "../../store/modules/cart/types";
 import api from "../../services/api";
 import CatalogItem from "../CatalogItem";
 
-// import { Container } from './styles';
+import "./style.sass";
 
 const Catalog: React.FC = () => {
   const [catalog, setCatalog] = useState<IProduct[]>([]);
@@ -16,7 +16,7 @@ const Catalog: React.FC = () => {
 
   return (
     <main>
-      <div>
+      <div id="containerProdutos">
       {catalog.map((product) => (
         <CatalogItem key={product.id} product={product} />
       ))}

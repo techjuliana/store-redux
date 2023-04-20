@@ -7,7 +7,7 @@ export function Intro(): JSX.Element {
     <div id="body">
       <img alt="Pães" src={logo} />
       <div className="texto">
-        <h1>Baked Fresh Daily</h1>
+        <h1>Padaria Portuguesa</h1>
         <p>Alegria e pão quentinho são as especialidades da casa </p>
       </div>
     </div>

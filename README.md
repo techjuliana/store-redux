@@ -1,6 +1,5 @@
 <h1 align="center">
-Baker Fresh Daily - Cart
-
+Baker - Cart (Padaria Portuguesa)
 
 ## Sobre o projeto
 Desenvolvido para treinar as habilidades de Redux, SASS e Tailwind
