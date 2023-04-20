@@ -1,4 +1,4 @@
-import logo from "./logo.jpeg";
+import logo from "./2.avif";
 import "./style.sass";
 
 const Header: React.FC = () => {
