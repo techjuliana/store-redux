@@ -2,13 +2,12 @@
 Baker - Cart (Padaria Portuguesa)
 
 ## Sobre o projeto
-Desenvolvido para treinar as habilidades de Redux, SASS e Tailwind
+Desenvolvido para treinar as habilidades de Redux, SASS
 
 Visão Tecnica do que encontrará no projeto:
 - Server JSON api
 - SASS
 - REDUX
-- Tailwind
 - Server JSON
 - TypeScript
 
