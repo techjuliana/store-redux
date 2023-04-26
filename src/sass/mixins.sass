@@ -1,7 +1,18 @@
 @use './variables'
 
-@mixin center-content
-  max-width: variables.$container-width 
-  margin: 0 auto
-  display: flex
-  justify-content: space-between
+@mixin containers-inicial
+   padding: 1rem
+   margin: 3rem
+   display: flex
+   flex-direction: row
+   align-content: space-between
+   justify-content: center
+   flex-wrap: wrap-reverse
+
+@mixin text-style
+    margin-bottom: 0.5rem
+    font-size: 20px
+
+@mixin containers-inicial-images
+    max-width: 30rem
+    border-radius: 1rem

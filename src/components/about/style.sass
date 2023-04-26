@@ -1,19 +1,12 @@
 @use './../../sass/variables'
+@use './../../sass/mixins'
 
 #containerAbout
-   padding: 1rem
-   margin: 3rem
-   display: flex
-   flex-direction: row
-   align-content: space-between
-   justify-content: center
-   flex-wrap: wrap-reverse
+   @include mixins.containers-inicial
    h1 
-    margin-bottom: 0.5rem
-    font-size: 20px
-   img 
-    max-width: 30rem
-    border-radius: 1rem
+    @include mixins.text-style
+   img
+    @include mixins.containers-inicial-images
    p 
     width: 30rem
 .texto

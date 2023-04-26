@@ -1,15 +1,10 @@
+@use './../../sass/mixins'
+
 #body
-   padding: 1rem
-   margin: 3rem
-   display: flex
-   flex-direction: row
-   align-content: space-between
-   justify-content: center
-   flex-wrap: wrap
+   @include mixins.containers-inicial
    img 
-    max-width: 30rem
-   h1 
-    margin-bottom: 0.5rem
-    font-size: 20px
+      @include mixins.containers-inicial-images
+   h1
+    @include mixins.text-style
    .texto 
     text-align: start

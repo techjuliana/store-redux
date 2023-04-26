@@ -1,3 +1,5 @@
+@use './../../sass/mixins'
+
 #containerProdutos
    padding: 1rem
    margin: 2rem
@@ -11,8 +13,7 @@
     grid-template-columns: 340px
   
    h1 
-    margin-bottom: 0.5rem
-    font-size: 20px
+    @include mixins.text-style
     .texto 
     text-align: start
     margin-top: 5rem
